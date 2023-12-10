@@ -10,4 +10,5 @@ public abstract class Tree {
     public int getAge() {
         return age;
     }
+
 }

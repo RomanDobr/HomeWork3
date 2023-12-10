@@ -11,9 +11,6 @@ public abstract class Camera {
 
     @Override
     public String toString() {
-        return "Camera{" +
-                "name='" + name + '\'' +
-                ", zoom=" + zoom +
-                '}';
+        return "Camera{" + "name='" + name + '\'' + ", zoom=" + zoom + '}';
     }
 }

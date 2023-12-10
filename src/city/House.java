@@ -1,6 +1,7 @@
 package city;
 
 public class House {
+
     private String street;
     private int numberHouse;
 

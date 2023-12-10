@@ -5,7 +5,6 @@ import phonefactory.camera.SamsungCamera;
 import phonefactory.moderboard.GalaxyModerBoard;
 import phonefactory.moderboard.IphoneModerboard;
 import phonefactory.phone.Iphone;
-import phonefactory.phone.Phone;
 import phonefactory.phone.SamsungGalaxyPhone;
 
 public class PhoneFactory {

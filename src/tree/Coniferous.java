@@ -7,5 +7,4 @@ public abstract class Coniferous extends Tree {
         super(age);
         this.typeNeedle = typeNeedle;
     }
-
 }

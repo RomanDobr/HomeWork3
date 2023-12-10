@@ -22,4 +22,5 @@ public final class LotteryTicket {
         }
         System.out.println(sum);
     }
+
 }

@@ -15,11 +15,7 @@ public abstract class ModerBoard {
 
     @Override
     public String toString() {
-        return "ModerBoard{" +
-                "length=" + length +
-                ", width=" + width +
-                ", height=" + height +
-                ", name='" + name + '\'' +
-                '}';
+        return "ModerBoard{" + "length=" + length + ", width=" + width +
+                ", height=" + height + ", name='" + name + '\'' + '}';
     }
 }

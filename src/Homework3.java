@@ -128,4 +128,5 @@ public class Homework3 {
         City city = new City("Москва", new House[]{house1, house2});
         System.out.println(city.toString());
     }
+
 }
