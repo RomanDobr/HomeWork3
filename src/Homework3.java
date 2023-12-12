@@ -112,8 +112,7 @@ public class Homework3 {
             new LotteryTicket();
             sum = LotteryTicket.testYourLuck();
         }
-        //System.out.println(LotteryTicket.count);
-        //LotteryTicket.testYourLuck();
+
         System.out.println(sum);
     }
 
