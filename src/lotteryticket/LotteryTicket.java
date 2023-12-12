@@ -1,26 +1,25 @@
 package lotteryticket;
 
-import java.util.Random;
-
 public final class LotteryTicket {
-    public void testYourLuck() {
+    public static int count = 0;
+    public static int sum = 0;
+
+    public LotteryTicket() {
+        count++;
+    }
+
+    public static int testYourLuck() {
         int ticketTo10 = 100;
         int ticketTo100 = 5_000;
-        int count = 0;
-        int sum = 0;
-        int i = 1;
-        while (count < 100) {
-            i++;
-            if (i % 10 == 0 && (i < 100)) {
-                sum += ticketTo10;
-            } else if (i % 100 == 0) {
-                sum += ticketTo100;
-            } else {
-                sum += 0;
-            }
-            count++;
+        if (count % 10 == 0 && (count < 100)) {
+            sum += ticketTo10;
+        } else if (count % 100 == 0) {
+            sum += ticketTo100;
+        } else {
+            sum += 0;
         }
-        System.out.println(sum);
+
+        return sum;
     }
 
 }

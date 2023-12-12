@@ -107,8 +107,14 @@ public class Homework3 {
         //
         //Создать здесь 100 билетов, и проверить по каждому удачу.
         //Итоговая сумма выигрыша после проверки удачи 100 билетов должна составить 6_000.
-        new LotteryTicket().testYourLuck();
-        System.out.println();
+        int sum = 0;
+        for (int i = 0; i < 100; i++) {
+            new LotteryTicket();
+            sum = LotteryTicket.testYourLuck();
+        }
+        //System.out.println(LotteryTicket.count);
+        //LotteryTicket.testYourLuck();
+        System.out.println(sum);
     }
 
     public static void ex5() {
